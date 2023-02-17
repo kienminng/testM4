@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add country</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+          integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+<form th:object="${country}" th:action="@{/country/add}" method="post">
+    <div class="mb-3 mt-3">
+        <label for="country" class="form-label">Country:</label>
+        <input type="text" class="form-control" id="country" placeholder="Enter country" name="countr">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+</body>
+</html>

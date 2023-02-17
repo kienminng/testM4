@@ -20,3 +20,5 @@ com/codegym/dethimodule4/repository/ICountryRepository.java
  com.codegym.dethimodule4.repository.ICountryRepository
 com/codegym/dethimodule4/service/CountryService.java
  com.codegym.dethimodule4.service.CountryService
+com/codegym/dethimodule4/controller/CountryController.java
+ com.codegym.dethimodule4.controller.CountryController
